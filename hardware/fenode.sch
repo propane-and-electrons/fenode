@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 3/13/2013 6:30:50 PM
+EESchema Schematic File Version 2  date 3/21/2013 11:06:44 PM
 LIBS:shardy
 EELAYER 25  0
 EELAYER END
@@ -6,7 +6,7 @@ $Descr A3 16535 11700
 encoding utf-8
 Sheet 1 1
 Title "fenode :: 4-channel RS-485 SSR with 110VAC HSI control"
-Date "13 mar 2013"
+Date "22 mar 2013"
 Rev "A"
 Comp "seth hardy :: propaneandelectrons.com"
 Comment1 ""
@@ -14,16 +14,12 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L 7805 U9
-U 1 1 513BF1A1
-P 13950 6550
-F 0 "U9" H 14100 6354 60  0000 C CNN
-F 1 "7805" H 13950 6750 60  0000 C CNN
-F 2 "7805" H 13950 6550 60  0001 C CNN
-	1    13950 6550
-	1    0    0    -1  
-$EndComp
+Connection ~ 12050 1900
+Wire Wire Line
+	12150 1900 12050 1900
+Connection ~ 12650 1900
+Wire Wire Line
+	12550 1900 12650 1900
 Wire Wire Line
 	7250 5650 7050 5650
 Wire Wire Line
@@ -82,9 +78,9 @@ Wire Wire Line
 Wire Wire Line
 	8300 3050 8700 3050
 Wire Wire Line
-	6600 2550 7000 2550
+	7000 2550 6600 2550
 Wire Wire Line
-	6600 2750 7000 2750
+	7000 2750 6600 2750
 Wire Wire Line
 	8600 3350 8700 3350
 Wire Wire Line
@@ -138,7 +134,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 1900 4350 2000
 Wire Wire Line
-	3700 1950 3350 1950
+	3350 1950 3700 1950
 Wire Wire Line
 	4000 2150 4000 2250
 Wire Wire Line
@@ -157,7 +153,7 @@ Wire Wire Line
 	3450 2250 3450 1950
 Connection ~ 3450 1950
 Wire Wire Line
-	3950 2250 4650 2250
+	4650 2250 3950 2250
 Wire Wire Line
 	3850 2550 3900 2550
 Wire Wire Line
@@ -181,7 +177,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 3950 3900 3950
 Wire Wire Line
-	3950 3650 4650 3650
+	4650 3650 3950 3650
 Connection ~ 3450 3350
 Wire Wire Line
 	3450 3650 3450 3350
@@ -200,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3550 4000 3650
 Wire Wire Line
-	3700 3350 3350 3350
+	3350 3350 3700 3350
 Wire Wire Line
 	4350 3400 4350 3300
 Wire Wire Line
@@ -246,7 +242,7 @@ Wire Wire Line
 Wire Wire Line
 	4350 6100 4350 6200
 Wire Wire Line
-	3700 6150 3350 6150
+	3350 6150 3700 6150
 Wire Wire Line
 	4000 6350 4000 6450
 Wire Wire Line
@@ -265,7 +261,7 @@ Wire Wire Line
 	3450 6450 3450 6150
 Connection ~ 3450 6150
 Wire Wire Line
-	3950 6450 4650 6450
+	4650 6450 3950 6450
 Wire Wire Line
 	3850 6750 3900 6750
 Wire Wire Line
@@ -289,7 +285,7 @@ Wire Wire Line
 Wire Wire Line
 	3850 5350 3900 5350
 Wire Wire Line
-	3950 5050 4650 5050
+	4650 5050 3950 5050
 Connection ~ 3450 4750
 Wire Wire Line
 	3450 5050 3450 4750
@@ -308,7 +304,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 4950 4000 5050
 Wire Wire Line
-	3700 4750 3350 4750
+	3350 4750 3700 4750
 Wire Wire Line
 	4350 4800 4350 4700
 Wire Wire Line
@@ -336,12 +332,10 @@ Wire Wire Line
 Wire Wire Line
 	11900 3400 11900 3200
 Wire Wire Line
-	13350 6500 13550 6500
+	13550 6500 13350 6500
 Connection ~ 11800 2150
 Wire Wire Line
-	12050 2000 12050 2150
-Wire Wire Line
-	12050 2150 11800 2150
+	11800 2150 12050 2150
 Connection ~ 11900 3400
 Wire Wire Line
 	11600 3850 11600 3700
@@ -396,7 +390,7 @@ Wire Wire Line
 Wire Wire Line
 	12100 2700 11500 2700
 Wire Wire Line
-	11300 2700 11300 2400
+	11300 2400 11300 2700
 Wire Wire Line
 	12100 3000 11300 3000
 Connection ~ 15000 7150
@@ -413,7 +407,7 @@ Wire Wire Line
 Wire Wire Line
 	14450 6500 14450 6600
 Wire Wire Line
-	13950 6800 13950 7300
+	13950 7300 13950 6800
 Wire Wire Line
 	12600 6700 12700 6700
 Connection ~ 15000 6500
@@ -442,7 +436,7 @@ Wire Wire Line
 	12100 2500 11300 2500
 Connection ~ 11300 2500
 Wire Wire Line
-	11300 2000 11300 1350
+	11300 1350 11300 2000
 Wire Wire Line
 	11500 2700 11500 1450
 Connection ~ 11500 1450
@@ -489,11 +483,7 @@ Wire Wire Line
 	11300 3000 11300 3400
 Connection ~ 11300 3400
 Wire Wire Line
-	12250 1800 12450 1800
-Wire Wire Line
-	12450 1800 12450 2000
-Wire Wire Line
-	12600 6500 12950 6500
+	12950 6500 12600 6500
 Wire Wire Line
 	15500 6500 14350 6500
 Wire Wire Line
@@ -513,7 +503,7 @@ Wire Wire Line
 Wire Wire Line
 	4550 7950 4450 7950
 Wire Wire Line
-	3900 7800 3900 8150
+	3900 8150 3900 7800
 Connection ~ 3150 8600
 Wire Wire Line
 	3150 9900 2700 9900
@@ -597,7 +587,7 @@ Wire Wire Line
 Wire Wire Line
 	9650 6000 9650 5900
 Wire Wire Line
-	9250 8900 10050 8900
+	10050 8900 9250 8900
 Wire Wire Line
 	9300 9550 9400 9550
 Wire Wire Line
@@ -611,12 +601,12 @@ Wire Wire Line
 	7300 9000 7300 8800
 Connection ~ 7300 8800
 Wire Wire Line
-	8050 9550 8800 9550
+	8800 9550 8050 9550
 Wire Wire Line
-	6950 9550 6950 9450
+	6950 9450 6950 9550
 Connection ~ 7300 9550
 Wire Wire Line
-	7300 9700 7300 9400
+	7300 9400 7300 9700
 Wire Wire Line
 	8650 8500 8650 8400
 Wire Wire Line
@@ -637,6 +627,24 @@ Wire Wire Line
 	9450 5700 9400 5700
 Wire Wire Line
 	6650 6100 7250 6100
+Wire Wire Line
+	12550 1800 12650 1800
+Wire Wire Line
+	12650 1800 12650 2000
+Wire Wire Line
+	12150 1800 12050 1800
+Wire Wire Line
+	12050 1800 12050 2150
+$Comp
+L 7805 U9
+U 1 1 513BF1A1
+P 13950 6550
+F 0 "U9" H 14100 6354 60  0000 C CNN
+F 1 "7805" H 13950 6750 60  0000 C CNN
+F 2 "7805" H 13950 6550 60  0001 C CNN
+	1    13950 6550
+	1    0    0    -1  
+$EndComp
 $Comp
 L ACSSR-S108T02 U6
 U 1 1 51392543
@@ -1193,8 +1201,6 @@ NoConn ~ 2700 10000
 NoConn ~ 2700 10100
 NoConn ~ 2700 10200
 NoConn ~ 2700 10300
-NoConn ~ 1900 9100
-NoConn ~ 1900 10700
 Text Label 4450 8600 0    60   ~ 0
 CTRLDE
 $Comp
@@ -1500,22 +1506,22 @@ F 1 "+12V" H 12800 6450 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_PUSH_SMALL SW1
+L SW_PUSH SW1
 U 1 1 4EC327D5
-P 12150 1900
-F 0 "SW1" H 12300 2010 30  0000 C CNN
-F 1 "RESET" H 12150 1821 30  0000 C CNN
-F 2 "SW_PUSH_SMALL" H 12150 1900 60  0001 C CNN
-	1    12150 1900
+P 12350 1850
+F 0 "SW1" H 12500 1960 30  0000 C CNN
+F 1 "RESET" H 12350 1771 30  0000 C CNN
+F 2 "SW_PUSH_SMALL" H 12350 1850 60  0001 C CNN
+	1    12350 1850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR026
 U 1 1 4EC327D4
-P 12450 2000
-F 0 "#PWR026" H 12450 2000 30  0001 C CNN
-F 1 "GND" H 12450 1930 30  0001 C CNN
-	1    12450 2000
+P 12650 2000
+F 0 "#PWR026" H 12650 2000 30  0001 C CNN
+F 1 "GND" H 12650 1930 30  0001 C CNN
+	1    12650 2000
 	1    0    0    -1  
 $EndComp
 $Comp
