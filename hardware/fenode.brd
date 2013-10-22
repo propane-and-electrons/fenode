@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 10/21/2013 9:31:27 PM
+PCBNEW-BOARD Version 2 date 10/22/2013 3:07:20 PM
 
 # Created by Pcbnew(2013-03-19 BZR 4004)-stable
 
@@ -55,8 +55,8 @@ TextPcbSize 1.524 2.032
 EdgeModWidth 0.381
 TextModSize 1.524 1.524
 TextModWidth 0.3048
-PadSize 2.99974 2.99974
-PadDrill 1.6
+PadSize 3.64998 3.64998
+PadDrill 3.2512
 Pad2MaskClearance 0.254
 SolderMaskMinWidth 0
 AuxiliaryAxisOrg 0 0
@@ -946,7 +946,7 @@ Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE RJ45_8
 $MODULE RJ45_8
-Po 156.21 147.32 0 15 51C71E04 4ECFF341 ~P
+Po 156.21 147.32 0 15 5266CCE3 4ECFF341 ~P
 Li RJ45_8
 Kw RJ45
 Sc 4ECFF341
@@ -966,7 +966,7 @@ Ne 0 ""
 Po 5.93852 0
 $EndPAD
 $PAD
-Sh "" C 3.64998 3.64998 0 0 0
+Sh "Hole" C 3.64998 3.64998 0 0 0
 Dr 3.2512 0 0
 At STD N 00E0FFFF
 Ne 0 ""
