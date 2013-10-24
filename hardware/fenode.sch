@@ -1,13 +1,12 @@
-EESchema Schematic File Version 2  date 6/23/2013 2:16:30 PM
+EESchema Schematic File Version 2  date 10/23/2013 10:07:26 PM
 LIBS:shardy
-LIBS:fenode-cache
 EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "fenode :: 4-channel RS-485 SSR with 110VAC HSI control"
-Date "23 jun 2013"
+Date "24 oct 2013"
 Rev "A"
 Comp "seth hardy :: propaneandelectrons.com"
 Comment1 ""
@@ -1615,7 +1614,7 @@ U 1 1 4EC327D5
 P 12350 1850
 F 0 "SW1" H 12500 1960 30  0000 C CNN
 F 1 "RESET" H 12350 1771 30  0000 C CNN
-F 2 "SW_PUSH_SMALL" H 12350 1850 60  0001 C CNN
+F 2 "SW-6MM-4PIN" H 12350 1850 60  0001 C CNN
 F 3 "" H 12350 1850 60  0001 C CNN
 	1    12350 1850
 	1    0    0    -1  
